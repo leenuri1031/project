@@ -7,13 +7,13 @@
 #root>header{
   width: 100vw;
   height: 25vh;
-  border: var(--border-solid-gray);
+  /* border: var(--solid-gray); */
+  background-color: var(--color-bright-gray);
 }
 
 #root>header>div:nth-child(1){
-  width: 100%;
+  width: 80%;
   height: 80%;
-
 }
 
 #root>header>div:nth-child(1)>p{
@@ -30,7 +30,7 @@
 #root>header>div:nth-child(2)>p{
   width: 80px; 
   height: 30px; 
-  border: var(--border-dotted-color);
+  border: var(--dotted-color);
   border-radius: 20px;
 }
 
@@ -50,7 +50,7 @@
 #main-top{
   width: 100%;
   height: 50vh;
-  border: var(--border-solid-gray);
+  /* border: var(--solid-gray); */
   /* border-bottom: var(--border-solid-gray); */
 }
 
@@ -62,7 +62,8 @@
 #main-top>div:nth-child(2){
   width: 100%;
   height: 50%;
-  border: var(--border-dotted-color);
+  /* border: var(--dotted-color); */
+  background-color: var(--color-bright-gray);
 }
 
 #main-bottom{
@@ -74,7 +75,7 @@
 #main-bottom>div{
   width: 50%;
   height: 5%;
-  border: var(--border-dotted-color);
+  border: var(--solid-gray);
   border-radius: var(--border-radius-round);
 }   /* info-text */
 
@@ -86,10 +87,10 @@
 }
 
 #main-bottom>ul>li{
-  width: 30vw;
-  height: 30vw;
-  border: var(--border-dotted-color);
+  width: 31vw;
+  height: 31vw;
   border-radius: 50%;
+  background-color: var(--color-gray);
 }
 
 /* main-------------------------------------------------------------------------- */
@@ -100,6 +101,7 @@
   width: 100vw;
   height: 5vh;
   /* border: var(--border-solid-gray); */
+  background-color: var(--color-gray);
 }
 
 #root>footer>ul{

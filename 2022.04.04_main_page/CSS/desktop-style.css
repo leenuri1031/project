@@ -12,7 +12,12 @@
     justify-content: center;
   }
 
-
+  #main-bottom>div{
+    width: 30%;
+    height: 10%;
+    border: var(--solid-gray);
+    border-radius: 40px;
+  }  
 
 
   #main-bottom>ul>li{

@@ -35,17 +35,13 @@
 
 .flex-row{flex-direction: row;}
 
-.box-1-bgc{background-color: var(--color-box-1);}
-
-.box-2-bgc{background-color: var(--color-box-2);}
-
 .border-black{border: var(--border-solid-black);}
 
 .margin-padding{margin: 0; padding: 0;}
 
 .transition{transition: 1s;}
 
-.circle-style{width: 40vw; height: 40vw; border: var(--border-dotted-color); border-radius: var(--border-radius);}
+.circle-style{width: 40vw; height: 40vw; border-radius: var(--border-radius); background-color: var(--color-gray);}
 
 
 
