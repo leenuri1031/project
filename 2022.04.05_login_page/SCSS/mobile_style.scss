@@ -122,7 +122,7 @@
 
 .footer-style{
   width: $width-per;
-  height: 5%;
+  height: 8%;
   background-color: $color-mid-red;
 }
 
@@ -131,6 +131,7 @@
   width: $width-per;
   height: $width-per;
   color: $color-bright-gray;
+  font-size: 14px;
 }
 
 // ------------------------------------------------------
@@ -148,7 +149,7 @@ header{
 
 main{
   width: $width-per;
-  height: 75%;
+  height: 72%;
 }
 
 #container{
@@ -267,13 +268,15 @@ main{
   &>div:nth-child(2){
     width: 80%;
     height: 20%;
-    border: $solid-pink;
+    // border: $solid-pink;
 
     &>section{
-      width: 90%;
-      height: 30%;
+      width: 80%;
+      height: 35%;
       background-color: $color-light-pink;
       border-radius: $border-radius-round;
+      color: $color-dark-red;
+
     }
 
   }
