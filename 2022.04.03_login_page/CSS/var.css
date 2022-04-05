@@ -1,0 +1,33 @@
+:root{
+  --width-root:100vw;
+  --height-root:100vh;
+  --color-black:black;
+  --color-white:white;
+  --color-bright-gray:#e2e2e2;
+  --color-gray:#c4c4c4;
+  --color-dark-gray:#838383;
+  --color-light-pink:#FFEAE6;
+  --color-dark-red: #6E1A26;
+  --color-mid-red: #CA9E97;
+  --color-mid-beige: #E0CDC9;
+  --color-mid-pink: #FFAE9B;
+  --color-dark-pink: #ED9D90;
+  --border-solid-black:1px solid black;
+  --border-solid-gray:1px solid #888;
+  --border-solid-red:1px solid #613c3c;
+  --border-solid-pink:2px solid #FFAE9B;
+  --border-solid-blue:1px solid #4f508b;
+  --border-dotted-color:1px dotted #3b3e49;
+  --border-dotted-pink:1px dotted #FFAE9B;
+  --border-radius:50%;
+  --border-radius-round:20px;
+}
+
+
+
+
+
+
+
+
+

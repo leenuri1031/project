@@ -1,0 +1,112 @@
+/* mobile-style------------------------------------ */
+
+#root{width: var(--width-root);  height: var(--height-root-mobile); }
+
+/* header-------------------------------------------------------------------------- */
+
+#root>header{
+  width: 100vw;
+  height: 25vh;
+  border: var(--border-solid-gray);
+}
+
+#root>header>div:nth-child(1){
+  width: 100%;
+  height: 80%;
+
+}
+
+#root>header>div:nth-child(1)>p{
+  width: 120px; 
+  height: 40px; 
+  font-size: 20px;
+}
+
+#root>header>div:nth-child(2){
+  width: 100%;
+  height: 20%;
+}
+
+#root>header>div:nth-child(2)>p{
+  width: 80px; 
+  height: 30px; 
+  border: var(--border-dotted-color);
+  border-radius: 20px;
+}
+
+
+
+/* header-------------------------------------------------------------------------- */
+
+
+/* main-------------------------------------------------------------------------- */
+
+#root>main{
+  width: 100vw;
+  height: 120vh;
+  /* border: var(--border-solid-gray); */
+}
+
+#main-top{
+  width: 100%;
+  height: 50vh;
+  border: var(--border-solid-gray);
+  /* border-bottom: var(--border-solid-gray); */
+}
+
+#main-top>div:nth-child(1){
+  width: 50%;
+  height: 50%; 
+}
+
+#main-top>div:nth-child(2){
+  width: 100%;
+  height: 50%;
+  border: var(--border-dotted-color);
+}
+
+#main-bottom{
+  width: 100vw;
+  height: 70vh;
+  /* border: var(--border-solid-blue); */
+}
+
+#main-bottom>div{
+  width: 50%;
+  height: 5%;
+  border: var(--border-dotted-color);
+  border-radius: var(--border-radius-round);
+}   /* info-text */
+
+#main-bottom>ul{
+  width: 90%;
+  height: 90%;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+#main-bottom>ul>li{
+  width: 30vw;
+  height: 30vw;
+  border: var(--border-dotted-color);
+  border-radius: 50%;
+}
+
+/* main-------------------------------------------------------------------------- */
+
+/* footer-------------------------------------------------------------------------- */
+
+#root>footer{
+  width: 100vw;
+  height: 5vh;
+  /* border: var(--border-solid-gray); */
+}
+
+#root>footer>ul{
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+
+/* footer-------------------------------------------------------------------------- */
+

@@ -1,0 +1,28 @@
+@media (min-width:1028px) {
+
+
+
+  #main-top>div:nth-child(1)>div{
+    width: 22vw;
+    height:22vw ;
+  }
+
+  #main-bottom{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+
+
+  #main-bottom>ul>li{
+    width: 12vw;
+    height: 12vw;
+  }
+
+}
+
+
+
+
+
