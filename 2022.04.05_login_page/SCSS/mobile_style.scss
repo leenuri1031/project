@@ -21,7 +21,7 @@
   $dotted-color:1px dotted #3b3e49;
   $dotted-pink:1px dotted #FFAE9B;
   $border-radius:50%;
-  $border-radius-round:20px;
+  $border-radius-round:30px;
   $width-per:100%;
 
 
@@ -101,6 +101,12 @@
   align-items: flex-end;
 }
 
+.flex-start-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 
 .flex-column{flex-direction: column;}
 
@@ -143,15 +149,137 @@ header{
 main{
   width: $width-per;
   height: 75%;
+}
 
-  &>section{border: $solid-pink;
+#container{
+  width: 80%;
+  height: 95%;
+  // border: $solid-pink;
 
-    
+   // login-box
+
+
+  &>div:nth-child(1){
+    width: 80%;
+    height: 60%;
+    // border: $solid-pink;
+
+    //  login-text
+      &>section:nth-child(1){
+        width: 80%;
+        flex-grow: 0.2;
+        // border: $solid-pink;
+
+          &>h3{color: $color-dark-red;}
+      }
+    // finish-----------------
+
+
+    //  ID-box
+      &>section:nth-child(2){
+        width: 80%;
+        flex-grow: 1;
+        // border: $solid-pink;
+
+        &>div:nth-child(1){
+          width: 50%;
+          height: 25%;
+          color: $color-dark-red;
+        }
+
+        &>div:nth-child(2){
+          width: 100%;
+          height: 40%;
+          background-color: $color-light-pink;
+          border-radius: $border-radius-round;
+        }
+
+      }
+    // finish-----------------
+
+
+    //  PW-box
+      &>section:nth-child(3){
+        width: 80%;
+        flex-grow: 1;
+        // border: $solid-pink;
+
+        &>div:nth-child(1){
+          width: 50%;
+          height: 25%;
+          color: $color-dark-red;
+        }
+
+        &>div:nth-child(2){
+          width: 100%;
+          height: 40%;
+          background-color: $color-light-pink;
+          border-radius: $border-radius-round;
+        }
+      }
+    // finish-----------------
+
+
+    //  button-box
+      &>section:nth-child(4){
+        width: 80%;
+        flex-grow: 1;
+        // border: $solid-pink;
+
+    //  button-box
+        &>div:nth-child(1){
+        width: 90%;
+        height: 60%;
+        // border: $solid-pink;
+
+        &>div{
+          width: 40%;
+          height: 45%;
+          background-color: $color-mid-pink;
+          border-radius: $border-radius-round;
+        }
+      }
+    // finish-----------------
+
+
+    //  found-pw-box
+      &>div:nth-child(2){
+      width: 90%;
+      height: 20%;
+      color: $color-dark-red;
+      // border: $solid-pink;
+    }
+    // finish-----------------
+
+
+      }
+    // finish-----------------
 
 
   }
 
+  // 
+
+
+
+  // sns-box
+
+  &>div:nth-child(2){
+    width: 80%;
+    height: 20%;
+    border: $solid-pink;
+
+    &>section{
+      width: 90%;
+      height: 30%;
+      background-color: $color-light-pink;
+      border-radius: $border-radius-round;
+    }
+
+  }
+    // finish-----------------
+
+
+// 
 }
-
-
 

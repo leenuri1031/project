@@ -30,37 +30,5 @@
 
 @media(min-width:500px){
 
-  #root {
-    // justify-content: center;
-    
-    &>header{order:1;}
-    &>main{order:3;}
-    &>footer{order:2;}
-  }
-  
-  
-  header{
-    flex-grow: 1;
-  }
-  
-  main{
-    flex-grow: 1;
 
-    &>div:nth-child(1){
-      flex-grow: 1;
-    }
-  
-    &>div:nth-child(2){
-      flex-grow: 1;
-    }
-  
-    &>div:nth-child(3){
-      flex-grow: 1;
-    }
-    }
-  
-  
-  footer{
-    flex-grow: 1;
-  }
 }

@@ -13,31 +13,34 @@
 <body>
   <div id="root" class="flex flex-column">
     <header></header>    <!-- img-part -->
-    <main class="flex-around-center flex-column">      <!-- login-place -->
-      <section class="flex-center-center flex-column">
-
-        <div class="flex-center-center flex-column">
-          
-          <div class="flex-center-center flex-column">            <!-- id-box -->
+    <main class="flex-center-center">  
+      <div id="container" class="flex-around-center flex-column">
+        <div class="flex-between-center flex-column">      <!-- main-login-box -->
+          <section class="flex-center-center" >            <!-- login-text -->
+            <h3>Log-in</h3>
+          </section>
+          <section class="flex-center-start flex-column">            <!-- id-box -->
             <div>ID</div>
             <div></div>
-          </div>
-
-          <div>            <!-- pw-box -->
+          </section>
+          <section class="flex-start-center flex-column">
             <div>PW</div>
             <div></div>
-          </div>
-
-        </div>        <!-- input ID&PW -->
-        
-        <div class="flex-center-center flex-column">
-          <div>            <!-- button -->
-          </div>
-          <div>            <!-- forgot pw -->
-          </div>
-        </div>        <!-- login & sign-up button -->
-      </section>
-      <section></section>
+          </section>
+          <!-- pw-box -->
+          <section class="flex-center-center flex-column">
+            <div class="flex-around-center">              <!-- button-box -->
+              <div class="flex-center-center">log-in</div>
+              <div class="flex-center-center">sign-up</div>
+            </div>
+            <div class="flex-center-center">forgot the password?</div>            <!-- found-pw-box -->
+          </section>
+        </div>
+        <div class="flex-center-center flex-column">        <!-- sns-box -->
+          <section class="flex-center-center">google log-in</section>        <!-- google -->
+          <section class="flex-center-center">facebook log-in</section>        <!-- facebook -->
+        </div>
+      </div>    
     </main>
     <footer class="footer-style">      <!-- menu -->
       <ul class="menu-style flex-around-center">
