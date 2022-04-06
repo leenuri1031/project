@@ -42,7 +42,7 @@
   
 
   header{
-    height: 20%;
+    height: 10%;
 
     &>div:nth-child(1){
       display: none;
@@ -50,22 +50,105 @@
   }
 
   main{
+    height: 80%;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
-    &>section:nth-child(1){
-      width: 40%;
-    }
+    &>div{
+      width: 45%;
+      height: 90%;
+      justify-content: center;
+      // border: $solid-black;
 
-    &>section:nth-child(2){
-      width: 40%;
+      &>section:nth-child(1){
+        width: 80%;
+        height: 50%;
+      // border: $solid-black;
 
-      &>div{
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
+
+        &>div:nth-child(1){
+          font-size: 18px;
+          border: none;
+          height: 20%;
+        }
+
+        &>div:nth-child(2){
+          width: 80%;
+          height: 15%;
+        }
+
+        &>div:nth-child(3){
+          display: flex;
+          width: 80%;
+          height: 15%;
+          background-color: $color-bright-gray;
+          color: $color-gray;
+        }
+      }
+  
+      &>section:nth-child(2){
+        width: 80%;
+        height: 50%;
+      // border: $solid-black; 
+
+
+        &>div{
+          &>div{
+            width: 80%;
+            height: 20%;
+          }
+        }
       }
     }
 
-  }
+    &>section:nth-child(2){
+      display: flex;
+      width: 45%;
+      height: 90%;
+
+      &>h2{
+        width: 90%;
+        hyphens: 10%;
+        color: $color-gray;
+      }
+
+      &>div{
+        width: 90%;
+        height: 90%;
+        // border: $solid-gray;
+
+        &>div{
+          width: 45%;
+          height: $width-per;
+          // border: $solid-gray;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          &>div{
+            width: 50%;
+            height: $width-per;
+
+            &>div{
+              width: 100px;
+              height: 100px;
+              background-color: $color-bright-gray;
+            }
+
+            &>p{
+              width: 90px;
+              height: 100px;
+              display: flex;
+              justify-content:center;
+              align-items: flex-start;
+              font-size: 14px;
+              color: $color-gray;
+            }
   
+          }
+        }
+      }
+    }
+  }
 }

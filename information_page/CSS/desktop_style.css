@@ -1,26 +1,112 @@
 @media (min-width: 1020px) {
   header {
-    height: 20%;
+    height: 10%;
   }
   header > div:nth-child(1) {
     display: none;
   }
   main {
+    height: 80%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  main > section:nth-child(1) {
-    width: 40%;
+  main > div {
+    width: 45%;
+    height: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main > div > section:nth-child(1) {
+    width: 80%;
+    height: 50%;
+  }
+  main > div > section:nth-child(1) > div:nth-child(1) {
+    font-size: 18px;
+    border: none;
+    height: 20%;
+  }
+  main > div > section:nth-child(1) > div:nth-child(2) {
+    width: 80%;
+    height: 15%;
+  }
+  main > div > section:nth-child(1) > div:nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    height: 15%;
+    background-color: #e2e2e2;
+    color: #c4c4c4;
+  }
+  main > div > section:nth-child(2) {
+    width: 80%;
+    height: 50%;
+  }
+  main > div > section:nth-child(2) > div > div {
+    width: 80%;
+    height: 20%;
   }
   main > section:nth-child(2) {
-    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 45%;
+    height: 90%;
+  }
+  main > section:nth-child(2) > h2 {
+    width: 90%;
+    -webkit-hyphens: 10%;
+        -ms-hyphens: 10%;
+            hyphens: 10%;
+    color: #c4c4c4;
   }
   main > section:nth-child(2) > div {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+  }
+  main > section:nth-child(2) > div > div {
+    width: 45%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main > section:nth-child(2) > div > div > div {
+    width: 50%;
+    height: 100%;
+  }
+  main > section:nth-child(2) > div > div > div > div {
+    width: 100px;
+    height: 100px;
+    background-color: #e2e2e2;
+  }
+  main > section:nth-child(2) > div > div > div > p {
+    width: 90px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-size: 14px;
+    color: #c4c4c4;
   }
 }
 /*# sourceMappingURL=desktop_style.css.map */
