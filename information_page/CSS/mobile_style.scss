@@ -191,13 +191,18 @@ header{
 main{
   width: $width-per;
   height: 62%;
+  justify-content: center;
+  align-items: center;
 
   &>section:nth-child(1){
     width: 90%;
     height: 10%;
     // border: $solid-gray;
 
-    &>div:nth-child(1){
+    &>div:nth-child(1){display: none;}
+
+
+    &>div:nth-child(2){
       width: 80%;
       height: 60%;
       background-color: $color-gray;
@@ -205,7 +210,7 @@ main{
     }
 
 
-    &>div:nth-child(2){display: none;}
+    &>div:nth-child(3){display: none;}
   }
 
   &>section:nth-child(2){
