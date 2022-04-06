@@ -122,6 +122,7 @@
   border: $solid-gray;
   border-radius: 50%;
   margin-left: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,6 +148,24 @@
   border-radius: 30px;
 }
 
+.search-box-style{
+  width: 80%;
+  height: $width-per;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-dark-gray;
+}
+
+.icon-dwon-style{
+  width: 10%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-dark-gray;
+}
+
 // ------------------------------------------------------
 
 #root{
@@ -158,16 +177,13 @@ header{
   width: $width-per;
   height: 30%;
 
-  &>div{
+  &>div:nth-child(2){
     width: $width-per;
-    height: 80%;
-
-    &>div:nth-child(2){
-      width: $width-per;
-      height: 70%;
-      background-color: $color-bright-gray;
-      }
-    }
+    height: 20%;
+    border-top: $solid-gray;
+    border-bottom: $solid-gray;
+    color: $color-dark-gray;
+  }
   }
 
 
@@ -175,30 +191,39 @@ header{
 main{
   width: $width-per;
   height: 62%;
-  flex-direction: column;
-
 
   &>section:nth-child(1){
-    width: 80%;
-    height: 60%;
+    width: 90%;
+    height: 10%;
+    // border: $solid-gray;
+
+    &>div:nth-child(1){
+      width: 80%;
+      height: 60%;
+      background-color: $color-gray;
+      border-radius: 20px;
+    }
+
+
+    &>div:nth-child(2){display: none;}
+  }
+
+  &>section:nth-child(2){
+    width: 90%;
+    height: 80%;
 
     &>div{
-      width: 80%;
-      height: 12%;
-      background-color: $color-gray;
+      width: $width-per;
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
 
-      &>div:nth-child(1){
-        width: 80%;
-        height: $width-per;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: $color-dark-gray;
-      }
-
-      &>div:nth-child(2){
-        width: 10%;
-        height: $width-per;
+      &>div{
+        width: 45%;
+        height: 80%;
+        background-color: $color-bright-gray;
+        border-radius: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -207,10 +232,7 @@ main{
     }
   }
 
-  &>section:nth-child(2){
-    width: 80%;
-    height: 15%;
-  }
+  &>section:nth-child(3){display: none;}
 
 }
 
