@@ -1,0 +1,26 @@
+@media (min-width: 1020px) {
+  header {
+    height: 20%;
+  }
+  header > div:nth-child(1) {
+    display: none;
+  }
+  main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main > section:nth-child(1) {
+    width: 40%;
+  }
+  main > section:nth-child(2) {
+    width: 40%;
+  }
+  main > section:nth-child(2) > div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+}
+/*# sourceMappingURL=desktop_style.css.map */
