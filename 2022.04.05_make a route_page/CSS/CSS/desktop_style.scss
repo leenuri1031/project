@@ -23,6 +23,16 @@
   $border-radius:50%;
   $border-radius-round:20px;
   $width-per:100%;
+  $justi-start:flex-start;
+  $justi-end:flex-end;
+  $justi-center:center;
+  $justi-around:space-around;
+  $justi-between:space-between;
+  $justi-evenly:space-evenly;
+  $ali-center:center;
+  $ali-start:flex-start;
+  $ali-end:flex-end;
+  
 
 
 
@@ -30,38 +40,32 @@
 
 @media(min-width:1020px){
   
-#root{
-
-  &>header{order:1;}
-  &>main{order:3;}
-  &>footer{order:2;}
-
-}
 
   header{
     height: 20%;
+
     &>div:nth-child(1){
-      display: none;}
-
-      &>div:nth-child(2){
-        height: 100%;
-      }
-
+      display: none;
+    }
   }
 
   main{
-    height: 75%;
+    flex-direction: row;
 
-    &>div:nth-child(1){
-      width: 50%;
-      height: 60%;
+    &>section:nth-child(1){
+      width: 40%;
     }
 
-    &>div:nth-child(2){
-      width: 150px;
-      height: 150px;
+    &>section:nth-child(2){
+      width: 40%;
+
+      &>div{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
     }
 
-    }
+  }
   
 }
