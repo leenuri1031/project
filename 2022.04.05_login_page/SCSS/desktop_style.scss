@@ -29,6 +29,27 @@
 // -----------------------------------------------------------------------------
 
 @media(min-width:1020px){
-  
+
+  #container{
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &>div:nth-child(1){
+      width: 40%;
+      height: 80%;
+  }
+
+    &>div:nth-child(2){
+      width: 30%;
+      height: 50%;
+      justify-content: center;
+
+      &>section{
+        width: 60%;
+        height: 15%;
+        margin: 5%;
+      }
+    }
+  }
 
 }

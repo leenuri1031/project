@@ -295,6 +295,7 @@ main {
   width: 90%;
   height: 20%;
   color: #6E1A26;
+  text-align: center;
 }
 
 #container > div:nth-child(2) {

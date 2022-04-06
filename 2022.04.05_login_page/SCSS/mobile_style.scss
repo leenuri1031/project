@@ -242,12 +242,13 @@ main{
 
 
     //  found-pw-box
-      &>div:nth-child(2){
-      width: 90%;
-      height: 20%;
-      color: $color-dark-red;
+        &>div:nth-child(2){
+        width: 90%;
+        height: 20%;
+        color: $color-dark-red;
+        text-align: center;
       // border: $solid-pink;
-    }
+        }
     // finish-----------------
 
 

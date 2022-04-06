@@ -26,9 +26,33 @@
 
 
 
+
+
 // -----------------------------------------------------------------------------
 
 @media(min-width:500px){
 
+  #root>header{order: 1;}
+
+  #root>main{order: 3;}
+
+  #root>footer{order: 2;}
+
+  #container>div{
+    border: $dotted-pink;
+    border-radius: 20px;
+  }
+
+  #container{
+    &>div:nth-child(1){
+      &>section:nth-child(4){
+        &>div:nth-child(2){
+          width: 80%;
+          text-align: start;
+        }
+      }
+    }
+  }
+  
 
 }
