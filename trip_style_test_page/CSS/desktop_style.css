@@ -1,0 +1,29 @@
+@media (min-width: 1020px) {
+  header > div:nth-child(1) {
+    display: none;
+  }
+  #text {
+    width: 50%;
+    position: relative;
+    top: 250px;
+    left: 200px;
+  }
+  #container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #container > div:nth-child(1) {
+    display: none;
+  }
+  #container > div:nth-child(2) {
+    width: 50%;
+    height: 100%;
+  }
+  #container > div:nth-child(3) {
+    width: 50%;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=desktop_style.css.map */
