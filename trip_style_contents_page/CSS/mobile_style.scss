@@ -14,7 +14,7 @@
   $color-mid-pink: #FFAE9B;
   $color-dark-pink: #ED9D90;
   $solid-black:1px solid black;
-  $solid-gray:1px solid #888;
+  $solid-gray:1px solid #838383;;
   $solid-red:1px solid #613c3c;
   $solid-pink:1px solid #FFAE9B;
   $solid-blue:1px solid #4f508b;
@@ -78,6 +78,12 @@
   align-items: flex-start;
 }
 
+.flex-between-end{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .flex-center-start{
   display: flex;
   justify-content: center;
@@ -121,8 +127,6 @@
   height: 50px;
   border: $solid-gray;
   border-radius: 50%;
-  margin-left: 20px;
-  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,8 +142,6 @@
 }
 
 .button-style{
-  width: 50%;
-  height: 50%;
   background-color: $color-gray;
   color: $color-dark-gray;
   display: flex;
@@ -176,30 +178,16 @@
 header{
   width: $width-per;
   height: 15%;
-  border: $dotted-pink;
+  align-items: center;
 
-  &>div:nth-child(1){
-    width: $width-per;
+  &>div{
+    width: 90%;
     flex-grow: 1;
-
-    &>div{
-    width: 50px;
-    height: 50px;
-    border: $solid-gray;
-    border-radius: 50%;
-      &>i{
-        color: $color-gray;
-      }
-    }
-  }
-
-  &>div:nth-child(2){
-    width: $width-per;
-    flex-grow: 0.5;
+    // border: $dotted-pink;
 
     &>h2{
       width: $width-per;
-      height: 70%;
+      height: 90%;
       color: $color-gray;
     }
   }
@@ -210,8 +198,79 @@ header{
 main{
   width: $width-per;
   height: 80%;
-  border: $dotted-pink;
-  } 
+
+  &>section:nth-child(1){display: none;}
+
+  &>section:nth-child(2){
+    width: 90%;
+    height: 25%;
+    background-color: $color-gray;
+    border-radius: 30px;
+
+    &>div:nth-child(1){
+      width: $width-per;
+      height: 80%;
+    }
+
+    &>div:nth-child(2){
+      width: 45px;
+      height: 45px;
+      background-color: $color-white;
+      border-radius: 50%;
+      color: $color-gray;
+      left: 10px;
+    }
+  }
+
+  &>section:nth-child(3){
+    width: 90%;
+    height: 70%;
+    flex-direction: column;
+
+    &>div:nth-child(1){
+      width: 90%;
+      height: 8%;
+
+      &>h4{
+        width: 60%;
+        height: $width-per;
+        border: $solid-gray;
+        color: $color-gray;
+        border-radius: 30px;
+      }
+    }
+
+    &>div:nth-child(2){
+      width: 90%;
+      height: 75%;
+      flex-direction: column;
+      
+      &>div{
+        width:60%;
+        height:30%; 
+        background-color: $color-gray;
+        color: $color-bright-gray;
+      }
+    }
+
+    &>div:nth-child(3){
+      width: 90%;
+      height: 12%;
+      justify-content: space-between;
+      align-items: center;
+
+      &>div:nth-child(1){
+        width: 60%;
+        height: 50%;
+      }
+
+      &>div:nth-child(2){
+        width: 40%;
+        height: 40%;
+      }
+    }
+  }
+} 
 
 
 
