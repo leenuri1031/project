@@ -250,15 +250,20 @@ main > section:nth-child(2) {
 }
 
 main > section:nth-child(2) > div {
-  width: 200px;
-  height: 200px;
+  width: 90%;
+  height: 45%;
+}
+
+main > section:nth-child(2) > div > div {
+  width: 250px;
+  height: 250px;
   background-color: #c4c4c4;
   border-radius: 50%;
 }
 
-main > section:nth-child(2) > div > p {
-  width: 70%;
-  height: 60%;
+main > section:nth-child(2) > div > div > p {
+  width: 50%;
+  height: 50%;
   text-align: justify;
   color: #838383;
 }

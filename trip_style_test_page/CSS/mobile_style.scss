@@ -179,16 +179,21 @@ main{
     flex-direction: column;
 
     &>div{
-      width: 200px;
-      height: 200px;
-      background-color: $color-gray;
-      border-radius: 50%;
+      width: 90%;
+      height: 45%;
 
-      &>p{
-        width: 70%;
-        height: 60%;
-        text-align: justify;
-        color: $color-dark-gray;
+      &>div{
+        width: 250px;
+        height: 250px;
+        background-color: $color-gray;
+        border-radius: 50%;
+  
+        &>p{
+          width: 50%;
+          height: 50%;
+          text-align: justify;
+          color: $color-dark-gray;
+        }
       }
     }
   }

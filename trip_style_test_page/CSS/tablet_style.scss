@@ -38,29 +38,45 @@
     &>footer{order:2;}
   }
   
-  
   header{
-    flex-grow: 1;
-  }
+    width: $width-per;
+    height: 15%;
+    justify-content: end;
+    align-items: flex-end;
   
-  main{
-    flex-grow: 1;
+    &>div{
+      width: 90%;
+      height: 40%;
+    }
+  } 
 
-    &>div:nth-child(1){
-      flex-grow: 1;
-    }
+  main{
+
+    &>section:nth-child(2){
+      width: 80%;
+      height: 80%;
+      flex-direction: row;
   
-    &>div:nth-child(2){
-      flex-grow: 1;
-    }
+      &>div{
+        width: ;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: $solid-gray;
   
-    &>div:nth-child(3){
-      flex-grow: 1;
-    }
-    }
+        &>div{
+          width: 250px;
+          height: 250px;
+          background-color: $color-gray;
+          border-radius: 30px;
+    
+        }
+      }
   
-  
-  footer{
-    flex-grow: 1;
   }
+}
+  
+  
+  
 }
