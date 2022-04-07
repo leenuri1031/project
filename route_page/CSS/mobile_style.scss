@@ -163,10 +163,13 @@ $width-root:100vw;
 header{
   width: $width-per;
   height: 12%;
+  align-items: flex-end;
 
   &>div{
     width: 90%;
     height: 30%;
+  align-items: flex-end;
+
   }
 }
 
@@ -245,6 +248,7 @@ main{
       &>div:nth-child(1){
         width: 15%;
         height: $width-per;
+        justify-content: center;
 
         &>div{
           width: 8%;
@@ -272,15 +276,8 @@ main{
         height: $width-per;
       }
     }
-
   }
-
-
-
 } 
-
-
-
 
 
 footer{  
