@@ -1,0 +1,28 @@
+@media (min-width: 1020px) {
+  #container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #container > div:nth-child(1) {
+    width: 40%;
+    height: 80%;
+  }
+  #container > div:nth-child(2) {
+    width: 30%;
+    height: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #container > div:nth-child(2) > section {
+    width: 60%;
+    height: 15%;
+    margin: 5%;
+  }
+}
+/*# sourceMappingURL=desktop_style.css.map */
