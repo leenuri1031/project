@@ -127,17 +127,6 @@
   color: $color-bright-gray;
 }
 
-.arrow-box-style{
-  width: 45px;
-  height: 45px;
-  border: $solid-gray;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: $color-gray;
-}
-
 // ------------------------------------------------------
 
 #root{
@@ -154,6 +143,14 @@ header{
   &>div{
     width: 90%;
     height: 35%;
+
+    &>div{
+      width: 45px;
+      height: 45px;
+      border: $solid-gray;
+      border-radius: 50%;
+      color: $color-gray;
+    }
   }
 }
 
@@ -179,18 +176,19 @@ main{
     flex-direction: column;
 
     &>div{
-      width: 90%;
-      height: 45%;
+      width: $width-per;
+      height: $width-per;
+      flex-direction: column;
 
       &>div{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         background-color: $color-gray;
         border-radius: 50%;
   
         &>p{
-          width: 50%;
-          height: 50%;
+          width: 60%;
+          height: 60%;
           text-align: justify;
           color: $color-dark-gray;
         }
