@@ -180,9 +180,10 @@ header{
   height: 15%;
 
   &>h2{
-    width: 90%;
+    width: $width-per;
     height: 50%;
     color: $color-gray;
+    border-bottom: $solid-gray;
   }
 }
 
