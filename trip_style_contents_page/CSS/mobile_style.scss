@@ -187,13 +187,12 @@ header{
     height: 50px;
     border: $solid-gray;
     border-radius: 50%;
-    margin-left: 5%;
-      >i{
+      &>i{
         color: $color-gray;
       }
     }
-
   }
+
   &>div:nth-child(2){
     width: $width-per;
     flex-grow: 0.5;
@@ -202,10 +201,9 @@ header{
       width: $width-per;
       height: 70%;
       color: $color-gray;
-      margin-left: 5%;
     }
   }
-  }
+}
 
 
 

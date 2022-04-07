@@ -271,7 +271,6 @@ header > div:nth-child(1) > div {
   height: 50px;
   border: 1px solid #888;
   border-radius: 50%;
-  margin-left: 5%;
 }
 
 header > div:nth-child(1) > div > i {
@@ -289,7 +288,6 @@ header > div:nth-child(2) > h2 {
   width: 100%;
   height: 70%;
   color: #c4c4c4;
-  margin-left: 5%;
 }
 
 main {
