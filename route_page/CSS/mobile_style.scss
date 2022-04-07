@@ -178,6 +178,7 @@ header{
 main{
   width: $width-per;
   height: 88%;
+  flex-direction: column;
 
   &>section:nth-child(1){
     width: 90%;
