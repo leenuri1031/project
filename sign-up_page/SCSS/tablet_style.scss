@@ -189,6 +189,26 @@
       width: 90%;
       height: 60%;
       flex-direction: row;
+
+      &>div:nth-child(2){
+        height: 70%;
+        // border: $solid-black;
+
+        &>div:nth-child(1){
+          height: 20%;
+        }
+
+        &>div:nth-child(2){
+          height: 80%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+  
+          &>p{
+            height: 15%;
+          }
+        }      
+      }
     }
   
   

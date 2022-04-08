@@ -156,13 +156,6 @@
   border-radius: 30px;
 }
 
-.half-input-style{
-  width: 80%;
-  height: 50%;
-  border: $solid-gray;
-  border-radius: 30px;
-}
-
 
 
 // ------------------------------------------------------
@@ -222,6 +215,7 @@ main{
     &>div:nth-child(2){
       width: $width-per;
       height: 40%;
+      align-items: center;
 
       &>div:nth-child(1){
         width: 90%;
@@ -236,6 +230,15 @@ main{
       &>div:nth-child(2){
         width: 45%;
         height: 30%;
+        display: flex;
+        align-items: center;
+
+        &>p{
+          width: 80%;
+          height: 50%;
+          border: $solid-gray;
+          border-radius: 30px;
+        }
       }
     }
   }

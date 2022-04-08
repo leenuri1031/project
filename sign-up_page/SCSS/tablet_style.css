@@ -273,6 +273,27 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  main > section:nth-child(2) > div:nth-child(2) {
+    height: 70%;
+  }
+  main > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+    height: 20%;
+  }
+  main > section:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main > section:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p {
+    height: 15%;
+  }
   main > section:nth-child(3) {
     width: 90%;
     height: 20%;
