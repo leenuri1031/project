@@ -14,14 +14,14 @@
   }
   #container > div:nth-child(2) {
     width: 30%;
-    height: 50%;
+    height: 80%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
   #container > div:nth-child(2) > section {
     width: 60%;
-    height: 15%;
+    height: 8%;
     margin: 5%;
   }
 }

@@ -256,6 +256,7 @@ main > section:nth-child(1) > div {
   width: 80%;
   height: 12%;
   background-color: #c4c4c4;
+  border-radius: 20px;
 }
 
 main > section:nth-child(1) > div > div:nth-child(1) {
