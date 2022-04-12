@@ -5,11 +5,9 @@
   header > div:nth-child(1) {
     display: none;
   }
+
   main {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   main > section:nth-child(1) {
     width: 40%;
@@ -22,5 +20,4 @@
     height: 200px;
     border-radius: 50%;
   }
-}
-/*# sourceMappingURL=desktop_style.css.map */
+}/*# sourceMappingURL=desktop_style.css.map */

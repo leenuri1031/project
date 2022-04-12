@@ -1,0 +1,38 @@
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+@media (min-width: 450px) {
+  #root > header {
+    order: 1;
+  }
+  #root > main {
+    order: 3;
+  }
+  #root > footer {
+    order: 2;
+  }
+
+  main > section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main > section > div {
+    width: 70%;
+    height: 22%;
+    background-color: #c4c4c4;
+  }
+}/*# sourceMappingURL=tablet_style.css.map */

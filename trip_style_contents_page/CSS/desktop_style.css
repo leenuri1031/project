@@ -2,17 +2,16 @@
   #root {
     height: 100vh;
   }
+
   header {
     height: 10%;
   }
   header > div:nth-child(1) {
     display: none;
   }
+
   main {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   main > section:nth-child(1) {
     width: 50%;
@@ -33,10 +32,7 @@
   main > section:nth-child(2) > div:nth-child(2) {
     width: 90%;
     height: 75%;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   main > section:nth-child(2) > div:nth-child(2) > div {
     width: 30%;
@@ -45,5 +41,4 @@
     color: #e2e2e2;
     border-radius: 30px;
   }
-}
-/*# sourceMappingURL=desktop_style.css.map */
+}/*# sourceMappingURL=desktop_style.css.map */

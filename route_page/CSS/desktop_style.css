@@ -2,34 +2,24 @@
   #root {
     height: 100vh;
   }
+
   header {
     height: 10%;
   }
   header > div:nth-child(1) {
     display: none;
   }
+
   main {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   main > section:nth-child(1) {
     width: 45%;
     height: 90%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   main > section:nth-child(1) > div:nth-child(1) {
     width: 80%;
@@ -43,5 +33,4 @@
     width: 45%;
     height: 90%;
   }
-}
-/*# sourceMappingURL=desktop_style.css.map */
+}/*# sourceMappingURL=desktop_style.css.map */

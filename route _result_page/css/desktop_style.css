@@ -1,0 +1,47 @@
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+@media (min-width: 1020px) {
+  #root {
+    height: 100vh;
+  }
+
+  header > div:first-child {
+    display: none;
+  }
+  header > div:last-child {
+    width: 100%;
+    height: 100%;
+    background-color: #c4c4c4;
+  }
+
+  main {
+    flex-direction: column;
+  }
+  main > section {
+    width: 90%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  main > section > div {
+    width: 20%;
+    height: 80%;
+    background-color: #c4c4c4;
+  }
+}/*# sourceMappingURL=desktop_style.css.map */

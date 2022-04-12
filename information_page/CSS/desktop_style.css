@@ -5,24 +5,17 @@
   header > div:nth-child(1) {
     display: none;
   }
+
   main {
     height: 80%;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
   main > div {
     width: 45%;
     height: 90%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   main > div > section:nth-child(1) {
     width: 80%;
@@ -38,8 +31,6 @@
     height: 15%;
   }
   main > div > section:nth-child(1) > div:nth-child(3) {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 70%;
     height: 10%;
@@ -56,8 +47,6 @@
     height: 20%;
   }
   main > section:nth-child(2) {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 45%;
     height: 90%;
@@ -76,14 +65,9 @@
   main > section:nth-child(2) > div > div {
     width: 45%;
     height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-around;
+    align-items: center;
   }
   main > section:nth-child(2) > div > div > div {
     width: 50%;
@@ -97,17 +81,10 @@
   main > section:nth-child(2) > div > div > div > p {
     width: 90px;
     height: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    justify-content: center;
+    align-items: flex-start;
     font-size: 14px;
     color: #c4c4c4;
   }
-}
-/*# sourceMappingURL=desktop_style.css.map */
+}/*# sourceMappingURL=desktop_style.css.map */
